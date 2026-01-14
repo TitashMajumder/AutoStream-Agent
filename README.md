@@ -159,12 +159,12 @@ JSON-based RAG
 Modular, LLM-agnostic design
 
 ### Evaluation Coverage
-Requirement	|Status
-Intent detection	|✅
-RAG	|✅
-State management	|✅
-Tool execution	|✅
-Agentic workflow	|✅
+| Requirement	      |Status
+| Intent detection	|✅ |
+| RAG	              |✅ |
+| State management	|✅ |
+| Tool execution	  |✅ |
+| Agentic workflow	|✅ |
 
 ### Final Notes
 This project demonstrates a real-world agent architecture, focusing on reliability, state management, and controlled actions rather than free-form conversation.
