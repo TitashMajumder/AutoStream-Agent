@@ -1,5 +1,5 @@
-AutoStream – Agentic Lead Qualification System
-📌 Overview
+##AutoStream – Agentic Lead Qualification System
+####📌 Overview
 
 AutoStream is a production-style agentic system that simulates how AI sales and support agents operate on social platforms.
 The agent understands user intent, answers pricing and policy questions accurately, and captures leads through a controlled, multi-step workflow.
