@@ -127,36 +127,24 @@ Responses depend on multi-turn context, not only the last message
 This design aligns with real-world AI agents used in production systems.
 
 ### WhatsApp Deployment Approach
-
 The agent can be integrated with WhatsApp using the WhatsApp Business API. Incoming messages trigger a webhook that forwards the message to the backend. Conversation state can be stored per phone number, enabling multi-turn interactions. Responses are sent back using the WhatsApp Send Message API.
 
 ### Failure Handling
-
-Unknown or ambiguous inputs fall back to safe conversational prompts
-
-Lead capture is prevented unless all required fields are present
-
-Knowledge base access failures return graceful error messages
+- Unknown or ambiguous inputs fall back to safe conversational prompts
+- Lead capture is prevented unless all required fields are present
+- Knowledge base access failures return graceful error messages
 
 ### Future Improvements
-
-Replace deterministic intent detection with LLM-based classification
-
-Persist conversation state using Redis or a database
-
-Add confidence-based lead scoring
+- Replace deterministic intent detection with LLM-based classification
+- Persist conversation state using Redis or a database
+- Add confidence-based lead scoring
 
 ### Tech Stack
-
-Python 3.9+
-
-LangGraph (agent orchestration)
-
-Deterministic intent detection
-
-JSON-based RAG
-
-Modular, LLM-agnostic design
+- Python 3.9+
+- LangGraph (agent orchestration)
+- Deterministic intent detection
+- JSON-based RAG
+- Modular, LLM-agnostic design
 
 ### Evaluation Coverage
 | Requirement	      | Status |
