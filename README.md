@@ -53,7 +53,7 @@ AutoStream-Agent/
 The agent uses a local JSON file containing:
 
 - Pricing
-- 
+
 Basic Plan – $29/month
 10 videos/month, 720p resolution
 
