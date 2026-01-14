@@ -1,0 +1,19 @@
+{
+  "pricing": {
+    "basic": {
+      "price": "$29/month",
+      "videos": "10 videos/month",
+      "resolution": "720p"
+    },
+    "pro": {
+      "price": "$79/month",
+      "videos": "Unlimited",
+      "resolution": "4K",
+      "features": ["AI captions", "Priority support"]
+    }
+  },
+  "policies": {
+    "refund": "No refunds after 7 days",
+    "support": "24/7 support available only on Pro plan"
+  }
+}
